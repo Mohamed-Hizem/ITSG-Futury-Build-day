@@ -422,7 +422,7 @@ Needs: G16.
 - [ ] Demo script: vendor run with full EEL coverage, deviations judged, VB 13.4 upload, rules and tests update, signed report, new vendor reaching the certified label
 - [ ] Demo data and accounts, seeded by one command
 - [ ] AI calls run live during the demo; cached answers take over automatically if the network or OpenAI fails; a local run as last resort
-- [ ] Refill the cached AI triage answer of the seed (`s-no-id`, the 41 without DBID): rule titles are part of the triage prompt, so it has missed since G2's German titles (found in the code review of 2026-11-07; one paid call, only with a go)
+- [x] Refill the cached AI triage answer of the seed (`s-no-id`, the 41 without DBID): rule titles are part of the triage prompt, so it has missed since G2's German titles (found in the code review of 2026-11-07; refilled 2026-11-07 with one paid call, about 1 cent; offline probe: 1 hit, 0 misses, 0 API calls)
 - [ ] Answers ready for expected questions (data protection, AI errors, cost, how ITSG would run it)
 - [ ] Update `README.md` and `PROJECT_REPORT.md` to the delivered state; slides
 - [ ] Two full rehearsals on the deployed instance
