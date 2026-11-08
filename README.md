@@ -10,7 +10,7 @@
   <img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-knowledge_graph-4581C3?logo=neo4j&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-store-4169E1?logo=postgresql&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-compose-2496ED?logo=docker&logoColor=white">
-  <img alt="Tests" src="https://img.shields.io/badge/tests-207_passed-2EA44F">
+  <a href="https://github.com/ahlemtr/ITSG-Futury-Build-day/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/ahlemtr/ITSG-Futury-Build-day/actions/workflows/ci.yml/badge.svg?branch=main"></a>
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ Payroll software (SAP, DATEV, Lexware, …) must be certified by **ITSG** before
 <table>
   <tr>
     <td width="50%"><img src="docs/assets/spec-diff.png" alt="Spec changes view"><br><b>Spec changes.</b> V13.3 → V13.4, the phrase that flipped, the rules and tests it touches.</td>
-    <td width="50%"><img src="docs/assets/knowledge-graph.png" alt="Knowledge graph view"><br><b>Knowledge graph.</b> 1,032 passages, 36 rules, 18 test cases, all linked.</td>
+    <td width="50%"><img src="docs/assets/knowledge-graph.png" alt="Knowledge graph view"><br><b>Knowledge graph.</b> Spec passages, 37 rules and 24 test cases, all linked.</td>
   </tr>
   <tr>
     <td width="50%"><img src="docs/assets/vendor-run.png" alt="Vendor test run view"><br><b>Vendor view.</b> Upload a file, get a receipt, every rule checked, the insurer replies.</td>
